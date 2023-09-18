@@ -11,7 +11,7 @@ function Contact() {
           <div className='contact-container'>
               <Card name="Tanishq Agarwal" title="Team Lead | Back-End Developer" image="https://media.licdn.com/dms/image/D4D03AQErSFQvvNkzmA/profile-displayphoto-shrink_800_800/0/1691864426120?e=1700697600&v=beta&t=fAHj6Y4YyA5r2M3jGr4WKPYX30q_M0qhcyjmzDg_LYs" />
               <Card name="Ayushi Dwivedi" title="ML Developer" image="https://media.licdn.com/dms/image/D4D03AQHVTV78NLknYg/profile-displayphoto-shrink_200_200/0/1692426271520?e=1700697600&v=beta&t=2XU-p1GfC9oH6LFZg5BfTez9QLDwvvEdt_YpB90vK0k"/>
-              <Card name="Satyam Gupta" title="Front-End Developer" image=""/>
+              <Card name="Satyam Gupta" title="Front-End Developer" image="https://i.ibb.co/DbqxFmG/profile-photo.jpg"/>
           </div>
           <div className='contact-container'>
               <Card name="Satyam Singh" title="Front-End Developer" image="https://media.licdn.com/dms/image/D4D03AQHjyLJxN6LLZw/profile-displayphoto-shrink_800_800/0/1686240990025?e=1700697600&v=beta&t=cVEbwbNDjLklxD8S4qt8EanDOPC0veMUDVla5cWWYzI"/>
