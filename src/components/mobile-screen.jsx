@@ -23,15 +23,13 @@ function Mobile() {
 
             
             <a href="https://github.com/047pegasus/GeoWellAdvisor/releases/download/v1.0/app-release.apk" className="button inline-flex items-center justify-center p-5 text-base font-medium text-white py-2 px-4 border border-white rounded-lg">
-                <span className="w-full">Get Android App</span>
+                <span className="w-full">Get Android App *</span>
                 <svg className="w-4 h-4 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
             </a>
-
-
-
-
+        
+            <p className="third-para text-gray-200 dark:text-gray-50">* The app is under heavy development.<br></br> Kindly check back later for updates.</p>
 
         </div>
     </>
