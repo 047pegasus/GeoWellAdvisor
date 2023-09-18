@@ -18,18 +18,20 @@ const Home = () => {
                 <div>
                     <h3 className="front-text text-4xl font-bold text-center leading-20 ">
                         <section>DECISIONS WITH DATA FOR</section>
+                        <br></br>
                         <div className='up-down'>
                             <div>
-                                <section>OUR PANCHAYAT</section>
-                                <section>OUR TALUKA</section>
-                                <section>OUR VILLAGE</section>
+                                <section>WATER AVAILABILITY</section>
+                                <section>WATER QUALITY</section>
+                                <section>DRILLING TECHNIQUE</section>
                             </div>
                         </div>
                     </h3>
                 </div>
+                <br/>
                 <img className='front-img' src={illustration} alt="image" />
                 <div className="text-center text-gray-700 dark:text-gray-100">
-                    <p>The data platform houses various datasets on social, economic, and ecological parameters and serves as a data visualization platform promoting an interdisciplinary, spatial, and temporal understanding.</p>
+                    <p>The data platform houses various datasets on water quantity, quality, economic extraction availability, and ecological parameters and serves as a data visualization platform promoting an interdisciplinary & spatial understanding for digging a well.</p>
                 </div>
                 <img className='home_img' src={image} alt="image" />
                 <Link to='/project'><button type="button" class="text-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...">
@@ -40,7 +42,7 @@ const Home = () => {
             <div className="img-text">
                 <div className='child-div-img-text'>
                     <div className="heading">
-                        <h2 class="text-4xl dark:text-white">India Observatory aims to make data useful for local communities so that they can make informed decisions about</h2>
+                        <h2 class="text-4xl dark:text-white">GeoWell Advisor aims to make data useful for local communities so that they can make informed decisions about</h2>
                     </div>
                     <div className='div-row'>
                         <div>
@@ -62,7 +64,7 @@ const Home = () => {
 
             <div className='end-info'>
                 <div className='para'>
-                    <h3 class="text-center dark:text-white">Our tools are reliable go-to instruments that enhance access to social, economic, ecological information for nature conservation, natural resource management, local governance, and rural development</h3>
+                    <h3 class="text-center dark:text-white">Our tool is a reliable go-to instrument that enhances access to economic & ecological information for aquifer conservation & resource management, local governance, and rural development.</h3>
                 </div>
                 <div className='yt-video'>
                     <iframe width="660" height="415" src="https://www.youtube.com/embed/92J5kdxLH-k?si=AiwA3ufKGM4OEPJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -78,7 +80,7 @@ const Home = () => {
                     </div>
                     <div className='last-info-para'>
                         <p>
-                            By bringing together a unique ecosystem of tools, India Observatory helps visualize location-specific data and analytics on shared natural resources, supporting rural communities in effective management of their resources and enabling improved local livelihoods with the added incentive of living in harmony with nature.
+                            By bringing together a unique ecosystem of tools, GeoWell Advisor helps visualize location-specific data and analytics on shared natural resources of underground aquifers, supporting rural communities in effective management of the wells resources and enabling improved local livelihoods with the added incentive of living in harmony with nature.
                         </p>
                     </div>
                 </div>

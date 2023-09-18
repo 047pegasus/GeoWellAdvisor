@@ -35,6 +35,7 @@ function App() {
       </div>
       <div className="body-mobile">
         <Mobile />
+        <Footer />
       </div>
     </>
   )
