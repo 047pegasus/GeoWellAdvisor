@@ -1,0 +1,1045 @@
+{
+    "Andhra Pradesh" :{
+        "Anantapur": {
+          "sub_divisions": [
+            "Anantapur",
+            "Dharmavaram",
+            "Guntakal",
+            "Hindupur",
+            "Kadiri",
+            "Puttaparthi",
+            "Tadipatri"
+          ],
+          "coordinates": [
+            [14.6824, 77.6006],
+            [14.4125, 77.7219],
+            [15.1655, 77.3749],
+            [13.8326, 77.4913],
+            [14.1165, 78.1599],
+            [14.1666, 77.8251],
+            [14.9095, 78.029]
+          ]
+        },
+        "Chittoor": {
+          "sub_divisions": [
+            "Chittoor",
+            "Madanapalle",
+            "Tirupati",
+            "Tirupati (Urban)",
+            "Srikalahasti",
+            "Puttur",
+            "Nagari",
+            "Punganur",
+            "Palamaner",
+            "Chandragiri",
+            "Kuppam",
+            "Gudur"
+          ],
+          "coordinates": [
+            [13.2173, 79.1004],
+            [13.5552, 78.5028],
+            [13.6288, 79.4192],
+            [13.6233, 79.4205],
+            [13.2209, 79.6100],
+            [13.4163, 79.5460],
+            [13.3305, 79.5830],
+            [13.3667, 78.4833],
+            [13.2029, 78.9641],
+            [13.4700, 79.7400],
+            [12.7483, 78.5578],
+            [14.1560, 79.9899]
+          ]
+        },
+        "East Godavari": {
+          "sub_divisions": [
+            "Rajamahendravaram",
+            "Kakinada",
+            "Amalapuram",
+            "Mandapeta",
+            "Rampachodavaram",
+            "Peddapuram",
+            "Ramachandrapuram",
+            "Tuni",
+            "Pithapuram",
+            "Kothapeta",
+            "Rajahmundry (Urban)",
+            "Samalkota",
+            "Tadepalligudem",
+            "Narsapuram"
+          ],
+          "coordinates": [
+            [17.0077, 81.7773],
+            [16.9891, 82.2475],
+            [16.5789, 82.0070],
+            [16.8697, 81.6214],
+            [17.3152, 81.6926],
+            [17.0870, 82.1544],
+            [17.5846, 81.1757],
+            [17.3525, 82.5531],
+            [17.1122, 82.2596],
+            [17.1382, 81.4334],
+            [17.0067, 81.7898],
+            [17.0572, 82.1790],
+            [16.8148, 81.5326],
+            [16.4300, 81.6667]
+          ]
+        },
+        "Guntur": {
+          "sub_divisions": [
+            "Guntur",
+            "Tenali",
+            "Narasaraopet",
+            "Bapatla",
+            "Piduguralla",
+            "Macherla",
+            "Sattenapalle",
+            "Vinukonda",
+            "Gurazala"
+          ],
+          "coordinates": [
+            [16.3067, 80.4365],
+            [16.2375, 80.6476],
+            [16.2365, 80.0515],
+            [15.9043, 80.4587],
+            [16.4796, 79.8976],
+            [16.4825, 79.3576],
+            [16.3960, 80.1498],
+            [16.0439, 79.7495],
+            [16.3075, 79.9126]
+          ]
+        },
+        "Krishna": {
+          "sub_divisions": [
+            "Vijayawada",
+            "Machilipatnam",
+            "Gudivada",
+            "Nuzvid",
+            "Nandigama",
+            "Jaggaiahpet",
+            "Mylavaram",
+            "Avanigadda",
+            "Tiruvuru",
+            "Vijayawada (Urban)",
+            "Chandarlapadu",
+            "Gannavaram",
+            "Machilipatnam (Urban)",
+            "Gudivada (Urban)"
+          ],
+          "coordinates": [
+            [16.5062, 80.6480],
+            [16.1875, 81.1380],
+            [16.4336, 81.0049],
+            [16.7842, 80.8433],
+            [16.7881, 80.5150],
+            [16.8907, 80.1006],
+            [16.7614, 80.6013],
+            [16.0219, 81.1329],
+            [16.2358, 80.8535],
+            [16.5062, 80.6480],
+            [16.3284, 80.5203],
+            [16.5359, 80.7965],
+            [16.1875, 81.1380],
+            [16.4336, 81.0049]
+          ]
+        },
+        "Kurnool": {
+          "sub_divisions": [
+            "Kurnool",
+            "Adoni",
+            "Nandyal",
+            "Yemmiganur",
+            "Nandikotkur",
+            "Dhone",
+            "Atmakur",
+            "Allagadda",
+            "Banaganapalle",
+            "Kodumur",
+            "Kothapalle",
+            "Mantralayam"
+          ],
+          "coordinates": [
+            [15.8281, 78.0373],
+            [15.6322, 77.2749],
+            [15.4786, 78.4834],
+            [15.7363, 77.4808],
+            [15.8523, 78.2765],
+            [15.4173, 78.2328],
+            [15.6640, 78.6123],
+            [15.2380, 78.2014],
+            [15.4457, 77.8719],
+            [15.3667, 78.2286],
+            [15.4779, 77.8651],
+            [15.6322, 77.2749]
+          ]
+        },
+        "Nellore": {
+          "sub_divisions": [
+            "Nellore",
+            "Gudur",
+            "Kavali",
+            "Atmakur",
+            "Sullurpeta",
+            "Venkatagiri",
+            "Rapur",
+            "Naidupet",
+            "Nellore (Urban)",
+            "Gudur (Urban)",
+            "Kavali (Urban)"
+          ],
+          "coordinates": [
+            [14.4494, 79.9865],
+            [14.1543, 79.8497],
+            [14.9184, 79.9927],
+            [15.5667, 79.9833],
+            [13.6629, 80.0065],
+            [13.9609, 79.3924],
+            [14.0311, 80.1123],
+            [13.9116, 79.9927],
+            [14.4494, 79.9865],
+            [14.1543, 79.8497],
+            [14.9184, 79.9927]
+          ]
+        },
+        "Prakasam": {
+          "sub_divisions": [
+            "Ongole",
+            "Kandukur",
+            "Markapur",
+            "Chirala",
+            "Kanigiri",
+            "Giddalur",
+            "Yerragondapalem",
+            "Singarayakonda",
+            "Addanki",
+            "Ongole (Urban)",
+            "Kandukur (Urban)",
+            "Chirala (Urban)"
+          ],
+          "coordinates": [
+            [15.5057, 80.0496],
+            [15.2205, 79.9033],
+            [15.7329, 79.2680],
+            [15.8125, 80.3594],
+            [15.2406, 79.7447],
+            [15.3790, 78.9266],
+            [15.6175, 79.4500],
+            [15.2669, 80.0614],
+            [15.8143, 79.9812],
+            [15.5057, 80.0496],
+            [15.2205, 79.9033],
+            [15.8125, 80.3594]
+          ]
+        },
+        "Srikakulam": {
+          "sub_divisions": [
+            "Srikakulam",
+            "Palasa",
+            "Narasannapeta",
+            "Tekkali",
+            "Ichchapuram",
+            "Amadalavalasa",
+            "Rajam",
+            "Sompeta",
+            "Kaviti",
+            "Srikakulam (Urban)",
+            "Palasa (Urban)",
+            "Narasannapeta (Urban)",
+            "Tekkali (Urban)",
+            "Ichchapuram (Urban)"
+          ],
+          "coordinates": [
+            [18.2981, 83.8977],
+            [18.7729, 84.4163],
+            [18.4142, 84.0400],
+            [18.6541, 84.1175],
+            [19.1158, 84.5859],
+            [18.4142, 83.8081],
+            [18.5626, 83.3440],
+            [18.9358, 84.6261],
+            [18.1284, 84.0180],
+            [18.2981, 83.8977],
+            [18.7729, 84.4163],
+            [18.4142, 84.0400],
+            [18.6541, 84.1175]
+          ]
+        },
+        "Visakhapatnam": {
+          "sub_divisions": [
+            "Visakhapatnam",
+            "Anakapalle",
+            "Narsipatnam",
+            "Paderu",
+            "Tuni",
+            "Akkarampalle",
+            "Chodavaram",
+            "Gajuwaka",
+            "Visakhapatnam (Urban)",
+            "Anakapalle (Urban)",
+            "Narsipatnam (Urban)",
+            "Paderu (Urban)",
+            "Tuni (Urban)"
+          ],
+          "coordinates": [
+            [17.6868, 83.2185],
+            [17.6881, 83.0036],
+            [17.6669, 82.6162],
+            [18.1092, 82.6676],
+            [17.3500, 82.8500],
+            [17.6868, 83.2185],
+            [17.7450, 82.9579],
+            [17.6801, 83.1974],
+            [17.6868, 83.2185],
+            [17.6881, 83.0036],
+            [17.6669, 82.6162],
+            [18.1092, 82.6676],
+            [17.3500, 82.8500]
+          ]
+        },
+        "Vizianagaram": {
+          "sub_divisions": [
+            "Vizianagaram",
+            "Parvathipuram",
+            "Bobbili",
+            "Salur",
+            "Gajapathinagaram",
+            "Pusapatirega",
+            "Nellimarla",
+            "Srungavarapukota",
+            "Bhogapuram",
+            "Vizianagaram (Urban)",
+            "Parvathipuram (Urban)",
+            "Bobbili (Urban)"
+          ],
+          "coordinates": [
+            [18.1067, 83.3956],
+            [18.7829, 83.4286],
+            [18.5753, 83.3588],
+            [18.6165, 83.3732],
+            [18.5314, 83.6220],
+            [18.4643, 83.5535],
+            [18.3636, 83.2823],
+            [18.0745, 83.3615],
+            [18.1215, 83.4163],
+            [18.1067, 83.3956],
+            [18.7829, 83.4286],
+            [18.5753, 83.3588]
+          ]
+        },
+        "West Godavari": {
+          "sub_divisions": [
+            "Eluru",
+            "Tadepalligudem",
+            "Bhimavaram",
+            "Narasapuram",
+            "Tanuku",
+            "Jangareddigudem",
+            "Kovvur",
+            "Nidadavole",
+            "Polavaram",
+            "Chintalapudi",
+            "Denduluru",
+            "Tadepalligudem (Urban)",
+            "Bhimavaram (Urban)"
+          ],
+          "coordinates": [
+            [16.7111, 81.1004],
+            [16.8148, 81.5326],
+            [16.5464, 81.2976],
+            [16.4539, 81.7119],
+            [16.7528, 81.6989],
+            [17.1443, 80.1013],
+            [17.0354, 81.7343],
+            [16.9127, 81.5227],
+            [17.3478, 81.5497],
+            [16.7430, 81.2952],
+            [16.7494, 81.0986],
+            [16.8148, 81.5326],
+            [16.5464, 81.2976]
+          ]
+        },
+        "YSR Kadapa": {
+          "sub_divisions": [
+            "Kadapa",
+            "Proddatur",
+            "Rajampet",
+            "Jammalamadugu",
+            "Pulivendula",
+            "Mydukur",
+            "Badvel",
+            "Kamalapuram"
+          ],
+          "coordinates": [
+            [14.4674, 78.8242],
+            [14.7345, 78.5481],
+            [14.1926, 79.1510],
+            [14.8500, 78.3325],
+            [14.4167, 78.2333],
+            [14.7119, 78.3875],
+            [14.8022, 78.9892],
+            [14.4969, 78.3923]
+          ]
+        }
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "Arunachal Pradesh" : {
+        "Tawang": {
+          "sub_divisions": [
+            "Tawang",
+            "Jang",
+            "Mukto",
+            "Tseju",
+            "Lumla",
+            "Zemithang"
+          ],
+          "coordinates": [
+            [27.5875, 91.8672],
+            [27.5667, 92.1833],
+            [27.6667, 92.3000],
+            [27.7167, 92.1833],
+            [27.3167, 92.5000],
+            [27.5667, 92.3667]
+          ]
+        },
+        "West Kameng": {
+          "sub_divisions": [
+            "Bomdila",
+            "Dirang",
+            "Kalaktang",
+            "Thrizino",
+            "Singchung"
+          ],
+          "coordinates": [
+            [27.2667, 92.4167],
+            [27.0500, 92.2167],
+            [27.5667, 92.3833],
+            [27.3833, 92.3500],
+            [27.1000, 92.3000]
+          ]
+        },
+        "East Kameng": {
+          "sub_divisions": [
+            "Seppa",
+            "Chayang Tajo",
+            "Pakke-Kessang",
+            "Seijosa"
+          ],
+          "coordinates": [
+            [27.0000, 92.8667],
+            [27.0000, 93.0000],
+            [27.2500, 92.6667],
+            [27.0333, 92.7500]
+          ]
+        },
+        "Papum Pare": {
+          "sub_divisions": [
+            "Itanagar",
+            "Naharlagun",
+            "Doimukh",
+            "Sagalee",
+            "Balijan",
+            "Kimin"
+          ],
+          "coordinates": [
+            [27.1000, 93.6000],
+            [27.1167, 93.7167],
+            [27.0167, 93.6500],
+            [27.0833, 93.5333],
+            [27.1000, 93.7167],
+            [27.0167, 93.6000]
+          ]
+        },
+        "Kurung Kumey": {
+          "sub_divisions": [
+            "Koloriang",
+            "Nyapin",
+            "Chamdo",
+            "Pania"
+          ],
+          "coordinates": [
+            [27.0000, 93.0000],
+            [27.2000, 93.3000],
+            [26.8500, 93.1667],
+            [27.2000, 93.4500]
+          ]
+        },
+        "Kra Daadi": {
+          "sub_divisions": [
+            "Jamin",
+            "Pania"
+          ],
+          "coordinates": [
+            [27.1667, 93.6000],
+            [27.2000, 93.4500]
+          ]
+        },
+        "Lower Subansiri": {
+          "sub_divisions": [
+            "Ziro",
+            "Raga",
+            "Yachuli"
+          ],
+          "coordinates": [
+            [27.6333, 93.8333],
+            [27.2500, 93.7667],
+            [27.2833, 93.8500]
+          ]
+        },
+        "Upper Subansiri": {
+          "sub_divisions": [
+            "Daporijo",
+            "Dumporijo",
+            "Taliha",
+            "Kaying"
+          ],
+          "coordinates": [
+            [27.8333, 94.2000],
+            [27.8000, 93.9500],
+            [28.2500, 94.1000],
+            [27.4833, 94.0667]
+          ]
+        },
+        "West Siang": {
+          "sub_divisions": [
+            "Aalo",
+            "Liromoba",
+            "Rumgong",
+            "Kamba",
+            "Darak"
+          ],
+          "coordinates": [
+            [28.2000, 94.8000],
+            [28.0000, 94.6500],
+            [28.0833, 94.8500],
+            [28.3333, 94.5833],
+            [28.1500, 94.9000]
+          ]
+        },
+        "East Siang": {
+          "sub_divisions": [
+            "Pasighat",
+            "Mebo",
+            "Ruksin"
+          ],
+          "coordinates": [
+            [28.0667, 95.3333],
+            [28.4667, 95.3333],
+            [28.1667, 95.1667]
+          ]
+        },
+        "Siang": {
+          "sub_divisions": [
+            "Boleng",
+            "Yingkiong"
+          ],
+          "coordinates": [
+            [28.0500, 95.8000],
+            [28.3500, 94.9167]
+          ]
+        },
+        "Upper Siang": {
+          "sub_divisions": [
+            "Mariyang",
+            "Tuting"
+          ],
+          "coordinates": [
+            [28.5500, 95.3000],
+            [29.0000, 94.7167]
+          ]
+        },
+        "Lower Siang": {
+          "sub_divisions": [
+            "Hawai",
+            "Malinye",
+            "Koyu",
+            "Jenging"
+          ],
+          "coordinates": [
+            [28.1000, 95.3000],
+            [28.3000, 95.5000],
+            [27.9667, 95.2500],
+            [28.1000, 94.8833]
+          ]
+        },
+        "Lepa Rada": {
+          "sub_divisions": [
+            "Damin",
+            "Taksing"
+          ],
+          "coordinates": [
+            [28.4500, 95.7667],
+            [28.7000, 94.9667]
+          ]
+        },
+        "Namsai": {
+          "sub_divisions": [
+            "Namsai",
+            "Chongkham"
+          ],
+          "coordinates": [
+            [27.9333, 96.1667],
+            [27.8000, 96.2167]
+          ]
+        },
+        "Changlang": {
+          "sub_divisions": [
+            "Changlang",
+            "Khimiyong",
+            "Miao",
+            "Bordumsa",
+            "Nampong",
+            "Manmao"
+          ],
+          "coordinates": [
+            [27.1667, 95.9667],
+            [27.1500, 96.1000],
+            [27.5000, 96.1500],
+            [27.3000, 95.9667],
+            [27.1667, 96.4500],
+            [27.4333, 96.2333]
+          ]
+        },
+        "Tirap": {
+          "sub_divisions": [
+            "Khonsa",
+            "Laju",
+            "Deomali",
+            "Pakke Kessang"
+          ],
+          "coordinates": [
+            [27.0000, 95.5667],
+            [27.1000, 95.6167],
+            [27.1833, 95.5333],
+            [27.1833, 95.6500]
+          ]
+        },
+        "Longding": {
+          "sub_divisions": [
+            "Longding",
+            "Pongchau",
+            "Kanubari"
+          ],
+          "coordinates": [
+            [26.9167, 95.8500],
+            [26.8833, 95.6167],
+            [27.0000, 95.5000]
+          ]
+        }
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    "Assam": {
+        "Baksa": {
+        "sub_divisions": [
+            "Baksa"
+        ],
+        "coordinates": [
+            [26.7323, 91.1609]
+        ]
+        },
+        "Barpeta": {
+        "sub_divisions": [
+            "Barpeta",
+            "Bajali"
+        ],
+        "coordinates": [
+            [26.3214, 91.0087],
+            [26.3985, 90.9364]
+        ]
+        },
+        "Biswanath": {
+        "sub_divisions": [
+            "Biswanath",
+            "Gohpur",
+            "Behali"
+        ],
+        "coordinates": [
+            [26.8584, 93.3597],
+            [26.8789, 93.6076],
+            [26.7659, 93.5488]
+        ]
+        },
+        "Bongaigaon": {
+        "sub_divisions": [
+            "Bongaigaon",
+            "North Bongaigaon",
+            "South Salmara-Mankachar"
+        ],
+        "coordinates": [
+            [26.5027, 90.4899],
+            [26.5416, 90.3955],
+            [25.8888, 89.6281]
+        ]
+        },
+        "Cachar": {
+        "sub_divisions": [
+            "Silchar",
+            "Lakhipur"
+        ],
+        "coordinates": [
+            [24.8333, 92.7797],
+            [24.7192, 92.8017]
+        ]
+        },
+        "Charaideo": {
+        "sub_divisions": [
+            "Sonari",
+            "Dergaon"
+        ],
+        "coordinates": [
+            [27.0453, 95.2177],
+            [26.7855, 94.7743]
+        ]
+        },
+        "Chirang": {
+        "sub_divisions": [
+            "Kokrajhar",
+            "Gossaigaon",
+            "Sidli"
+        ],
+        "coordinates": [
+            [26.4096, 90.2670],
+            [26.3906, 89.9175],
+            [26.5347, 90.4447]
+        ]
+        },
+        "Darrang": {
+        "sub_divisions": [
+            "Mangaldai",
+            "Sipajhar"
+        ],
+        "coordinates": [
+            [26.4186, 92.0430],
+            [26.6885, 91.8822]
+        ]
+        },
+        "Dhemaji": {
+        "sub_divisions": [
+            "Dhemaji",
+            "Jonai"
+        ],
+        "coordinates": [
+            [27.4814, 94.8530],
+            [27.3633, 94.8947]
+        ]
+        },
+        "Dhubri": {
+        "sub_divisions": [
+            "Dhubri",
+            "Gauripur",
+            "Bilasipara"
+        ],
+        "coordinates": [
+            [26.0159, 89.9662],
+            [26.2623, 89.9826],
+            [26.2595, 90.2447]
+        ]
+        },
+        "Dibrugarh": {
+        "sub_divisions": [
+            "Dibrugarh",
+            "Tingkhong",
+            "Moran"
+        ],
+        "coordinates": [
+            [27.4799, 95.0057],
+            [27.5237, 94.8756],
+            [27.4523, 94.6870]
+        ]
+        },
+        "Dima Hasao": {
+        "sub_divisions": [
+            "Haflong",
+            "Maibang"
+        ],
+        "coordinates": [
+            [25.1728, 93.0176],
+            [25.3907, 93.2129]
+        ]
+        },
+        "Goalpara": {
+        "sub_divisions": [
+            "Goalpara",
+            "Lakhipur"
+        ],
+        "coordinates": [
+            [26.1737, 90.6476],
+            [26.8533, 90.2715]
+        ]
+        },
+        "Golaghat": {
+        "sub_divisions": [
+            "Golaghat",
+            "Bokakhat",
+            "Sarupathar"
+        ],
+        "coordinates": [
+            [26.5222, 93.9681],
+            [26.6314, 94.2394],
+            [26.7461, 94.8599]
+        ]
+        },
+        "Hailakandi": {
+        "sub_divisions": [
+            "Hailakandi",
+            "Katlicherra",
+            "Algapur"
+        ],
+        "coordinates": [
+            [24.6771, 92.5645],
+            [24.5616, 92.8489],
+            [24.6996, 92.5374]
+        ]
+        },
+        "Hojai": {
+        "sub_divisions": [
+            "Hojai",
+            "Lanka"
+        ],
+        "coordinates": [
+            [26.0011, 92.8594],
+            [26.2236, 92.7155]
+        ]
+        },
+        "Jorhat": {
+        "sub_divisions": [
+            "Jorhat",
+            "Mariani",
+            "Teok"
+        ],
+        "coordinates": [
+            [26.7564, 94.2030],
+            [26.4942, 94.3211],
+            [26.5637, 94.3557]
+        ]
+        },
+        "Kamrup": {
+        "sub_divisions": [
+            "Chamaria",
+            "Sualkuchi",
+            "Bamunimaidan",
+            "Chandrapur"
+        ],
+        "coordinates": [
+            [26.2761, 91.5653],
+            [26.1573, 91.6763],
+            [26.2030, 91.6912],
+            [26.1186, 91.6149]
+        ]
+        },
+        "Kamrup Metropolitan": {
+        "sub_divisions": [
+            "Guwahati"
+        ],
+        "coordinates": [
+            [26.1844, 91.7515]
+        ]
+        },
+        "Karbi Anglong": {
+        "sub_divisions": [
+            "Diphu",
+            "Bokajan",
+            "Howraghat"
+        ],
+        "coordinates": [
+            [25.8274, 93.4282],
+            [26.0170, 93.7737],
+            [25.8824, 93.7326]
+        ]
+        },
+        "Karimganj": {
+        "sub_divisions": [
+            "Karimganj",
+            "Nilambazar",
+            "Badarpur"
+        ],
+        "coordinates": [
+            [24.8607, 92.3523],
+            [24.7200, 92.7359],
+            [24.8229, 92.6451]
+        ]
+        },
+        "Kokrajhar": {
+        "sub_divisions": [
+            "Kokrajhar",
+            "Gossaigaon",
+            "Dotoma",
+            "Parbatsar"
+        ],
+        "coordinates": [
+            [26.3975, 90.2679],
+            [26.5097, 89.9672],
+            [26.2562, 89.7371],
+            [26.3019, 90.1540]
+        ]
+        },
+        "Lakhimpur": {
+        "sub_divisions": [
+            "North Lakhimpur",
+            "Dhakuakhana",
+            "Naoboicha"
+        ],
+        "coordinates": [
+            [27.2244, 94.1169],
+            [27.3719, 94.0914],
+            [27.1635, 94.3059]
+        ]
+        },
+        "Majuli": {
+        "sub_divisions": [
+            "Majuli"
+        ],
+        "coordinates": [
+            [26.9354, 94.1988]
+        ]
+        },
+        "Morigaon": {
+        "sub_divisions": [
+            "Morigaon",
+            "Laharighat",
+            "Bhurbandha"
+        ],
+        "coordinates": [
+            [26.2622, 92.4086],
+            [26.3494, 92.5144],
+            [26.1983, 92.2769]
+        ]
+        },
+        "Nagaon": {
+        "sub_divisions": [
+            "Nagaon",
+            "Raha",
+            "Kaliabor",
+            "Dhing"
+        ],
+        "coordinates": [
+            [26.3468, 92.6848],
+            [26.2646, 92.5331],
+            [26.9756, 92.8605],
+            [26.4591, 92.4702]
+        ]
+        },
+        "Nalbari": {
+        "sub_divisions": [
+            "Nalbari"
+        ],
+        "coordinates": [
+            [26.4515, 91.4390]
+        ]
+        },
+        "Sivasagar": {
+        "sub_divisions": [
+            "Sivasagar",
+            "Amguri",
+            "Sapekhati"
+        ],
+        "coordinates": [
+            [26.9788, 94.6312],
+            [26.6364, 94.5742],
+            [27.1172, 94.6083]
+        ]
+        },
+        "Sonitpur": {
+        "sub_divisions": [
+            "Tezpur",
+            "Biswanath Chariali",
+            "Gohpur"
+        ],
+        "coordinates": [
+            [26.6421, 92.7929],
+            [26.6986, 92.8169],
+            [26.9152, 93.4544]
+        ]
+        },
+        "South Salmara-Mankachar": {
+        "sub_divisions": [
+            "Hatsingimari"
+        ],
+        "coordinates": [
+            [25.8765, 89.9889]
+        ]
+        },
+        "Tinsukia": {
+        "sub_divisions": [
+            "Tinsukia",
+            "Makum",
+            "Doom Dooma"
+        ],
+        "coordinates": [
+            [27.5184, 95.5658],
+            [27.5642, 95.3882],
+            [27.6192, 95.5619]
+        ]
+        },
+        "Udalguri": {
+        "sub_divisions": [
+            "Udalguri",
+            "Kalaigaon"
+        ],
+        "coordinates": [
+            [26.7444, 92.1476],
+            [26.6891, 92.6416]
+        ]
+        },
+        "West Karbi Anglong": {
+        "sub_divisions": [
+            "Donkamukam"
+        ],
+        "coordinates": [
+            [25.9986, 92.6616]
+        ]
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+      
+      
+      
+      
+}

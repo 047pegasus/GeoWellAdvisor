@@ -1,0 +1,28 @@
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.body-app{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.body-mobile{
+    display: none;
+    visibility: hidden;
+}
+@media screen and (max-width: 786px) {
+    .body-app{
+        visibility: hidden;
+        display: none;
+    }
+    .body-mobile{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        display: block ;
+        visibility: visible;
+    }
+    
+}

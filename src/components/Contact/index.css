@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+.contact-body{
+    width: 100vw;
+    background-image: conic-gradient(at left bottom, rgb(17, 24, 39), rgb(75, 85, 99), rgb(209, 213, 219));
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+}
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+.contact-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: max-content;
+    padding-bottom: 100px;
+}
+.heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+.span{
+    font-size: 53px;
+    font-weight: 800;
+    background-image: radial-gradient(at right top, rgb(219, 234, 254), rgb(147, 197, 253), rgb(59, 130, 246));
+}

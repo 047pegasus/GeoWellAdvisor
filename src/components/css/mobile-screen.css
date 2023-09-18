@@ -1,0 +1,55 @@
+.body-mobilepage{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 40px;
+    text-align: center;
+}
+.brand-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100vw;
+    padding: 2vw 4vw;
+}
+.logo-mobile{
+    border-radius: 50%;
+}
+.illustration{
+    width: 50vw;
+    height: 50vw;
+    margin-bottom: 40px;
+}
+.first-para{
+    font-size: 17px;
+}
+.button{
+    margin: 20px;
+}
+.second-para{
+    margin-top: 20px;
+}
+.button {
+    transition: background-position 0.3s ease-in-out;
+    background-size: 200% 200%;
+    background-image: linear-gradient(45deg, transparent 50%, rgb(0, 0, 0), rgb(75, 85, 99), rgb(55, 55, 196) 50%);
+    background-position: 0 100%;
+}
+
+.button:hover {
+    background-position: 100% 0;
+}
