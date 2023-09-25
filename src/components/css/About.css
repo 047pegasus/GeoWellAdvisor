@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .bg-imgae-container{
     background-image: url('C:\Users\sgbro\OneDrive\Desktop\Desktop\SIH times\gwr\gwr_app\src\assets\bg.jpeg');
     background-repeat: no-repeat;
@@ -75,12 +76,12 @@
 }
 .about-container .logo-div div{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
 .about-title-ai{
     font-size: 20vw;
 }
+
 .features-container{
     width: 100vw;
     justify-self: center;
@@ -91,13 +92,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.591);
+    background-color: rgb(1, 0, 26);
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-
 }
+
 .features{
     width: 80vw;
-
 }
 
 .photo-para-parentdiv{
@@ -122,9 +122,11 @@
 
 .photo-para .image{
     width: 400px;
-    height: 400px;
-    border-radius: 60px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 6vh;
 }
+
 .text{
     width: 500px;
     display: flex;
@@ -133,8 +135,8 @@
     align-items: center;
     height: 400px;
     margin-bottom: 8vw;
-
 }
+
 .text h1{
     font-size: 1.9em;
     font-weight: 300;

@@ -2,6 +2,7 @@ import img1 from '../assets/about.gif';
 import img2 from '../assets/about_img2.jpg';
 import img3 from '../assets/about_img3.jpg';
 
+
 import icon1 from '../assets/icons/analysis.png';
 import icon2 from '../assets/icons/interface.png';
 import icon3 from '../assets/icons/prediction.png';
@@ -31,16 +32,15 @@ function About() {
         <div className='bg-imgae-container'>
         <div className='body-about '>
             <div className="about-container  ">
+          
             {/* bg-gradient-to-b from-gray-900 to-gray-600 */}
                 <div className="logo-div text-4xl font-bold">
                     <div className='logo-name-about'>
                         <h2 className=' text-center-name about-title-name bg-clip-text  text-transparent' style={{ backgroundImage: 'conic-gradient(rgb(243, 244, 246), rgb(253, 186, 116), rgb(240, 171, 252))' }} data-aos="fade-in"> GeoWellAdvisor</h2>
                     </div>
                     <div className='ai-div'>
-                    {/* <span className=" text-center about-title-ai bg-clip-text  text-transparent" style={{ backgroundImage: 'conic-gradient(rgb(243, 244, 246), rgb(253, 186, 116), rgb(240, 171, 252))' }}>
-                        AI
-                    </span> */}
-                    <p className="description-about text-white dark:text-white" data-aos="fade-in" data-aos-delay="1000">GeoWellAdvisor AI: Your go-to tool for smart water well decisions. Predict well suitability, depth, discharge, and more, all with a user-friendly interface powered by AI and CGWB data.</p>
+
+                    <p className="description-about text-white dark:text-white" data-aos="fade-in" data-aos-delay="1000">GeoWellAdvisor: Your go-to tool for smart water well decisions. Predict well suitability, depth, discharge, and more, all with a user-friendly interface powered by AI and CGWB data.</p>
                     <p className='description-about da-2 font-semibold text-white dark:text-white' data-aos="fade-in" data-aos-delay="1000">Join us in shaping a sustainable water future.</p>
                     </div>
                 </div>

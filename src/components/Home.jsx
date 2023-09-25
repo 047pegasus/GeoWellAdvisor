@@ -1,5 +1,5 @@
 import './css/NavBar.css';
-import image from '../assets/home_img.jpg';
+import image from '../assets/frontimg.jpg';
 import img_collective_action from '../assets/collective-action.svg';
 import img_nature_conservation from '../assets/nature-conversation.svg';
 import img_rural_agricultural from '../assets/rural-agricultral.svg';
@@ -30,7 +30,7 @@ const Home = () => {
 
             <div className='front-div' >
                
-                <div>
+                <div data-aos="fade-in">
                     <h3 className="front-text text-4xl font-bold text-center leading-20 ">
                         <section>DECISIONS WITH DATA FOR</section>
                         <div className='up-down'>
@@ -44,12 +44,12 @@ const Home = () => {
                 </div>
               
 
-                <img className='front-img' src={illustration} alt="image" data-aos="zoom-out" />
+                <img className='front-img' src={illustration} alt="illustration-image" data-aos="zoom-out" />
                
-                <div className="text-center text-gray-700 dark:text-gray-100" >
-                    <p>The data platform houses various datasets on social, economic, and ecological parameters and serves as a data visualization platform promoting an interdisciplinary, spatial, and temporal understanding.</p>
+                <div className="text-center text-gray-700 dark:text-gray-100" data-aos="fade-in">
+                    <p>The data platform houses a project based on datasets on social, economic, and ecological parameters regarding data on underground water aquifers all across India and serves as a data visualization platform promoting an interdisciplinary, spatial, and temporal understanding for the same using ML.</p>
                 </div>
-                    <img  className='home_img' src={image} alt="image" />
+                    <img  data-aos="zoom-out" data-aos-delay="1500" className='home_img' src={image} alt="water-image" />
                 <Link data-aos="fade-up" to='/project'>  <button   type="button" class="text-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...">
                     <p>GET STARTED</p>
                 </button> </Link>
@@ -59,7 +59,7 @@ const Home = () => {
                 <div className='child-div-img-text'>
                
                     <div className="heading">
-                        <h2 class="text-4xl dark:text-white">India Observatory aims to make data useful for local communities so that they can make informed decisions about</h2>
+                        <h2 class="text-4xl dark:text-white">GeoWell Advisor is made for local communities so that they can make informed decisions about water decisions in context of</h2>
                     </div>
                
 
@@ -101,7 +101,7 @@ const Home = () => {
                     </div>
                     <div className='last-info-para'>
                         <p>
-                            By bringing together a unique ecosystem of tools, India Observatory helps visualize location-specific data and analytics on shared natural resources, supporting rural communities in effective management of their resources and enabling improved local livelihoods with the added incentive of living in harmony with nature.
+                            By bringing together a unique ecosystem of tools, GeoWell Advisor helps visualize location-specific data and analytics on shared undergroundwater resources, supporting rural communities in effective management of their resources and enabling improved local livelihoods with the added incentive of living in harmony with nature.
                         </p>
                     </div>
                 </div>

@@ -10,8 +10,9 @@
     height: max-content;
 }
 .front-img{
-    height: 300px;
+    height: 250px;
     width: 300px;
+    padding-top: 50px;
 }
 .up-down{
     display: flex;
