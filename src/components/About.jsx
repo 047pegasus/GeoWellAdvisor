@@ -1,94 +1,78 @@
-import img1 from '../assets/about_img1.png';
+import img1 from '../assets/about_img3.png';
 import img2 from '../assets/about_img2.webp';
 import img3 from '../assets/about_img3.webp';
+
+import icon1 from '../assets/icons/analysis.png';
+import icon2 from '../assets/icons/interface.png';
+import icon3 from '../assets/icons/prediction.png';
+import icon4 from '../assets/icons/quality.png';
+
 import './css/About.css';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+    
+    useEffect(() => {
+        AOS.init({
+            duration: 1500,
+            delay: 500,
+            once: true,
+            easing: "ease-in-out",
+        });
+        AOS.refresh();
+      }, []);
+
   return (
     <>
+        <div className='bg-imgae-container'>
         <div className='body-about '>
             <div className="about-container  ">
             {/* bg-gradient-to-b from-gray-900 to-gray-600 */}
                 <div className="logo-div text-4xl font-bold">
                     <div className='logo-name-about'>
-                    <h2 className=' text-center-name about-title-name bg-clip-text  text-transparent' style={{ backgroundImage: 'conic-gradient(rgb(243, 244, 246), rgb(253, 186, 116), rgb(240, 171, 252))' }}> GeoWellAdvisor </h2>
+                        <h2 className=' text-center-name about-title-name bg-clip-text  text-transparent' style={{ backgroundImage: 'conic-gradient(rgb(243, 244, 246), rgb(253, 186, 116), rgb(240, 171, 252))' }} data-aos="fade-in"> GeoWellAdvisor</h2>
                     </div>
                     <div className='ai-div'>
-                    <span className=" text-center about-title-ai bg-clip-text  text-transparent" style={{ backgroundImage: 'conic-gradient(rgb(243, 244, 246), rgb(253, 186, 116), rgb(240, 171, 252))' }}>
+                    {/* <span className=" text-center about-title-ai bg-clip-text  text-transparent" style={{ backgroundImage: 'conic-gradient(rgb(243, 244, 246), rgb(253, 186, 116), rgb(240, 171, 252))' }}>
                         AI
-                    </span>
+                    </span> */}
+                    <p className="description-about text-white dark:text-white" data-aos="fade-in" data-aos-delay="1000">GeoWellAdvisor AI: Your go-to tool for smart water well decisions. Predict well suitability, depth, discharge, and more, all with a user-friendly interface powered by AI and CGWB data.</p>
+                    <p className='description-about da-2 font-semibold text-white dark:text-white' data-aos="fade-in" data-aos-delay="1000">Join us in shaping a sustainable water future.</p>
                     </div>
                 </div>
-                <img src={img1} alt="" />
+
+                <img className='about-front-img' data-aos="fade-left" data-aos-delay="1000" src={img1} alt="GeoWell Advisor"/>
+
             </div>
-            {/* <div className="table-container">
-                <span className='table-heading' >Powerful AI Insights:)</span>
-                <div className='parent-container'>
-                        <div className='box'>
-                            <h2>Suitability Analysis</h2>
-                            <p>Discover the most suitable locations for water well placement.</p>
-                        </div>
-                        <div className="box">
-                            <h2>Drilling Techniques</h2>
-                            <p>Learn the best drilling methods for optimized water extraction.</p>
-                        </div>
-                        <div className="box">
-                            <h2>Depth Prediction</h2>
-                            <p>Uncover the ideal depth for your water well based on location data.</p>
-                        </div>
-                        <div className="box">
-                            <h2>Discharge Estimation</h2>
-                            <p>Maximize the water discharge rate using our sophisticated AI models.</p>
-                        </div>
-                        <div className="box">
-                            <h2>Groundwater Quality</h2>
-                            <p>Obtain vital information about the groundwater quality in your area.</p>
-                        </div>
-                        <div className="box">
-                            <h2>User-Friendly Interface</h2>
-                            <p>Enjoy a seamless experience with our intuitive and interactive platform.</p>
-                        </div>
-                </div>
-            </div> */}
+            <div className="features-container">
                 <div className="features">
                     <div className="container px-4 md:px-6">
                         <div className="grid gap-6 items-center">
                         <div className="flex flex-col justify-center space-y-8 text-center">
                             <div className="space-y-2">
-                            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
+                            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500" data-aos="zoom-out">
                                 Discover Our Unique Features
                             </h1>
-                            <p className="max-w-[600px] text-zinc-200 md:text-xl dark:text-zinc-100 mx-auto">
-                                Our features are designed to enhance your productivity and streamline your workflow.
+                            <p className="max-w-[600px] text-zinc-200 md:text-xl dark:text-zinc-100 mx-auto"  data-aos="zoom-out" data-aos-delay="500">
+                                Our features are designed to enhance your decision making by providing you accurate data.
                             </p>
                             </div>
                             <div className="w-full max-w-full space-y-4 mx-auto">
                             <div className="grid grid-cols-3 gap-8">
-                                <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
+                                <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg" data-aos="zoom-out" data-aos-delay="1100">
                                 <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                                <svg
-                                    className=" text-white h-6 w-6 mb-2 opacity-75"
-                                    fill="none"
-                                    height="24"
-                                    stroke="currentColor"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    viewBox="0 0 24 24"
-                                    width="24"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                    <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
-                                    <circle cx="12" cy="12" r="3" />
-                                    </svg>
+                                <img src={icon1} alt="" height='28' width='28' />
                                 </div>
                                 <h2 className="text-xl font-bold text-white">Suitability Analysis</h2>
                                 <p className="text-zinc-200 dark:text-zinc-100">
                                     Discover the most suitable locations for water well placement.
                                 </p>
                                 </div>
-                                <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
+                                <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg" data-aos="zoom-out" data-aos-delay="1200">
                                 <div className="p-2 bg-black bg-opacity-50 rounded-full">
                                     <svg
                                     className=" text-white h-6 w-6 mb-2 opacity-75"
@@ -111,24 +95,10 @@ function About() {
                                      Learn the best drilling methods for optimized water extraction.
                                 </p>
                                 </div>
-                                <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
+                                <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg" data-aos="zoom-out" data-aos-delay="1300">
                                 <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                                <svg
-                                    className=" text-white h-6 w-6 mb-2 opacity-75"
-                                    fill="none"
-                                    height="24"
-                                    stroke="currentColor"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    viewBox="0 0 24 24"
-                                    width="24"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                    <path d="m8 6 4-4 4 4" />
-                                    <path d="M12 2v10.3a4 4 0 0 1-1.172 2.872L4 22" />
-                                    <path d="m20 22-5-5" />
-                                    </svg>
+                                <img src={icon3} alt="" height='28' width='28' />
+                                
 
                                 </div>
                                 <h2 className="text-xl font-bold text-white">Depth Prediction</h2>
@@ -136,7 +106,7 @@ function About() {
                                     Uncover the ideal depth for your water well based on location data.
                                 </p>
                                 </div>
-                                <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
+                                <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg" data-aos="zoom-out" data-aos-delay="1400">
                                 <div className="p-2 bg-black bg-opacity-50 rounded-full">
                                     <svg
                                     className=" text-white h-6 w-6 mb-2 opacity-75"
@@ -159,47 +129,18 @@ function About() {
                                      Maximize the water discharge rate using our sophisticated AI models.
                                 </p>
                                 </div>
-                                <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
+                                <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg" data-aos="zoom-out" data-aos-delay="1500">
                                 <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                                    <svg
-                                    className=" text-white h-6 w-6 mb-2 opacity-75"
-                                    fill="none"
-                                    height="24"
-                                    stroke="currentColor"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    viewBox="0 0 24 24"
-                                    width="24"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                    <rect height="11" rx="2" ry="2" width="18" x="3" y="11" />
-                                    <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-                                    </svg>
+                                <img src={icon4} alt="" height='28' width='28' />
                                 </div>
                                 <h2 className="text-xl font-bold text-white">Groundwater Quality</h2>
                                 <p className="text-zinc-200 dark:text-zinc-100">
                                     Obtain vital information about the groundwater quality in your area.
                                 </p>
                                 </div>
-                                <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
+                                <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg" data-aos="zoom-out" data-aos-delay="1600">
                                 <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                                    <svg
-                                    className=" text-white h-6 w-6 mb-2 opacity-75"
-                                    fill="none"
-                                    height="24"
-                                    stroke="currentColor"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    viewBox="0 0 24 24"
-                                    width="24"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                    <path d="m8 6 4-4 4 4" />
-                                    <path d="M12 2v10.3a4 4 0 0 1-1.172 2.872L4 22" />
-                                    <path d="m20 22-5-5" />
-                                    </svg>
+                                <img src={icon2} alt="" height='28' width='28' />
                                 </div>
                                 <h2 className="text-xl font-bold text-white">User-Friendly Interface</h2>
                                 <p className="text-zinc-200 dark:text-zinc-100">
@@ -212,18 +153,20 @@ function About() {
                         </div>
                     </div>
                 </div>
-            <div className='photo-para-parentdiv bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-500 to-indigo-900 '>
+            </div>
+            <div className='photo-para-parentdiv'>
+                {/* bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-500 to-indigo-900 */}
                 <div className='photo-para'>
 
-                    <div className='text'>
+                    <div className='text' data-aos="fade-right">
                         <h1>Transform Water Well Decisions</h1>
                         <p>Harness the power of CGWB's NAQUIM data and revolutionize your approach to water well decisions. GeoWellAdvisor's AI-driven platform is specifically designed for India's unique groundwater landscape.</p>
                     </div>
 
-                    <img className='image' src={img2} alt="" />
+                    <img className='image' data-aos="fade-left" data-aos-delay="200" src={img2} alt="Transfrom Watrer Well Decisions" />
 
-                    <img className='image' src={img3} alt="" />
-                    <div className='text'>
+                    <img className='image' data-aos="fade-right" data-aos-delay="200" src={img3} alt="Dynamic Platform, Structured Feedback" />
+                    <div className='text' data-aos="fade-left">
                         <h1 className=''>
                             Dynamic Platform, Structured Feedback
                         </h1>
@@ -234,9 +177,7 @@ function About() {
                 <Link to='/project'><button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Get Started</button></Link>
             </div>
 
-
-
-
+            </div>
         </div>
         </>
     

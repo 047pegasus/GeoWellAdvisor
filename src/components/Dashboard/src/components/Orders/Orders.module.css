@@ -1,0 +1,18 @@
+.container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.css.orderChart,span{
+  text-transform: uppercase;
+    background: linear-gradient(to right, #30CFD0 0%, #b48be6 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 0;
+
+}
+.cont{
+  padding: 50px;
+}

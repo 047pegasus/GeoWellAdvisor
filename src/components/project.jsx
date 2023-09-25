@@ -9,6 +9,8 @@ import Maps from './Maps';
 import ScrollToTop from '../ScrollToTop';
 import { MapContainer} from 'react-leaflet';
 import { useLocation } from 'react-router-dom';
+import { useRef } from 'react';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -17,6 +19,9 @@ const labelStyles = {
 };
 
 function Project() {
+
+  const navigationRef = useRef();
+ 
 
   const statesInIndia = ["Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal"];
 
@@ -103,8 +108,8 @@ const handleSubmit = (event) => {
   event.preventDefault();
   if(Coordinates.length!=0){
     setisSubmitted(true);
-    window.scrollTo(0, 0);
-    window.location.href = "/project/maps";
+    navigationRef.current.click();
+
   }
   else{
     alert("Please select your state, district and block");
@@ -143,11 +148,16 @@ const handleSubmit = (event) => {
     <>
     <ScrollToTop />
     {isSubmitted ?  <Maps/> : <div>
+      <div className="shape-1 "></div>
+      <div className="shape-2"></div>
+      <div className="shape-3"></div>
+      <div className="shape-4"></div>
+     
       <div className="body-project">
         <h2 className="text-4xl font-bold dark:text-white">Our Project</h2>
-
+        
         <div className="location-options">
-          <p className="mb-3 text-lg text-gray-500 md:text-xl dark:text-gray-400">
+          <p className="mb-3 text-lg text-gray-300 md:text-xl dark:text-gray-100">
             Allow us to get your current Location from your Device or Select it manually
           </p>
           <button
@@ -165,7 +175,7 @@ const handleSubmit = (event) => {
           )}
 
           <h2 className="text-3xl font-extrabold dark:text-white">OR</h2>
-
+          
           <form className='form'>
             <div className='location-input'>
             <div className='combobox'>
@@ -199,11 +209,17 @@ const handleSubmit = (event) => {
               
             </div>
             </div>
+ 
             <button type="submit" onClick={handleSubmit} class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
           </form>
+         
         </div>
+    
       </div>
-    </div>
+     
+      <NavLink to="/project/maps" ref={navigationRef} ></NavLink>
+      </div>
+
     }
 
       

@@ -11,9 +11,42 @@ function NavBar() {
     setActiveLink(link);
   };
 
+const GetStartedButton = () => {
+  const currentPath = window.location.pathname;
+
+  // Check if the currentPath is one of the specified paths
+  if (currentPath === '/project' || currentPath === '/dashboard' || currentPath === '/maps') {
+    return (
+      <NavLink
+        to="#"
+        className={`text-white opacity-0 pointer-events-none focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-opacity-90 dark:hover:bg-opacity-100 dark:focus:ring-gray-800 ${activeLink === 'project' ? 'active' : ''}`}
+        onClick={(e) => e.preventDefault()} // Prevent navigation
+        style={{ backgroundImage: 'radial-gradient(at right top, rgb(0, 0, 0), rgb(75, 85, 99), rgb(63, 63, 70))' }}
+      >
+        GET STARTED
+      </NavLink>
+    );
+
+  }
+
+  // If the currentPath is not one of the specified paths, return the JSX code
+  return (
+    <NavLink
+      to="/project"
+      className={`text-white hover:bg-opacity-90 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-opacity-90 dark:hover:bg-opacity-100 dark:focus:ring-gray-800 ${activeLink === 'project' ? 'active' : ''}`}
+      onClick={() => handleLinkClick('project')}
+      style={{ backgroundImage: 'radial-gradient(at right top, rgb(0, 0, 0), rgb(75, 85, 99), rgb(63, 63, 70))' }}
+    >
+      GET STARTED
+    </NavLink>
+  );
+};
+
+
+
   return (
     <>
-      <nav className="bg-black fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 backdrop-filter backdrop-blur-lg bg-opacity-40">
+      <nav className="nav-body bg-black fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 backdrop-filter backdrop-blur-lg bg-opacity-40">
 
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <NavLink
@@ -27,7 +60,7 @@ function NavBar() {
                 </div>
                 <h1 className="mb-2 text-lg font-extrabold text-900 dark:text-white md:text-2xl lg:text-3xl 
             sm:text-base md:text-lg lg:text-xl xl:text-2xl">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+                <span className="span-app  text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
                   GeoWellAdvisor
                 </span>{' '}
                 AI
@@ -35,14 +68,15 @@ function NavBar() {
 
           </NavLink>
           <div className="flex md:order-2">
-            <NavLink
+            <GetStartedButton />
+            {/* <NavLink
               to="/project"
               className={`text-white hover:bg-opacity-90 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-opacity-90 dark:hover:bg-opacity-100 dark:focus:ring-gray-800 ${activeLink === 'project' ? 'active' : ''}`}
               onClick={() => handleLinkClick('project')}
               style={{ backgroundImage: 'radial-gradient(at right top, rgb(0, 0, 0), rgb(75, 85, 99), rgb(63, 63, 70))' }}
             >
               GET STARTED
-            </NavLink>
+            </NavLink> */}
             <button
               data-collapse-toggle="navbar-sticky"
               type="button"
@@ -104,7 +138,7 @@ function NavBar() {
                   className={`block py-2 pl-3 pr-4 text-white rounded md:bg-opacity-0 md:text-white md:p-0 md:dark:text-gray-100 hover:text-blue-700 ${activeLink === 'contact' ? 'active' : ''}`}
                   onClick={() => handleLinkClick('contact')}
                 >
-                  Contact Us
+                  Developers
                 </NavLink>
               </li>
             </ul>

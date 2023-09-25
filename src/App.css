@@ -3,7 +3,10 @@ nav{
     top: 0;
     left: 0;
     z-index: 1000;
+    /* animation: shownav 0.5s ease-in-out forwards; */
 }
+
+
 
 .body-app{
     overflow-x: hidden;

@@ -3,9 +3,49 @@
 @tailwind utilities;
 
 
-
+.shape-1{
+    height: 150px;
+	width: 150px;
+	position: absolute;
+	background: -o-linear-gradient(315deg, #1ccd28, hsl(118, 100%, 50%));
+	background: linear-gradient(135deg, hsl(131, 68%, 42%), #02ff1b);
+	border-radius: 50%;
+    box-shadow: 0px 0px 150px #29b207;
+	z-index: -1;
+    display: block;
+    animation: ballsshow 1s ease-in-out forwards, right 70.522s linear 0s infinite alternate, 
+               top 75.45s linear 0s infinite alternate;
+}
+.shape-2{
+    height: 200px;
+	width: 200px;
+	position: absolute;
+	background: -o-linear-gradient(315deg, #3aa0ff, #0084ff);
+	background: linear-gradient(135deg, #3aa0ff, #0084ff);
+	border-radius: 50%;
+    box-shadow: 0px 0px 150px #0084ff;
+	z-index: -1;
+    display: block;
+    animation: ballsshow 1s ease-in-out forwards, left 90.522s linear 0s infinite alternate, 
+               bottom 85.45s linear 0s infinite alternate;
+}
+  @keyframes left{
+    from { left: 0%; } to { left: 90%;}
+  }
+  @keyframes bottom {
+      from { bottom: 85%; } to { bottom: 7%;}
+  
+  }
+  @keyframes top {
+    from { top: 3%; } to { top: 98%;}
+  }
+  
+  @keyframes right{
+    from { right: 10%; } to { right: 95%;}
+  
+  }
+  
 .body-project{
-    background-color: rgb(31, 31, 31);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +53,39 @@
     width: 100%;
     padding: 100px;
     padding-top: 200px;
+    padding-bottom: 200px;
+
+
+    background-color: rgba(15, 15, 15, 0.626);
+	-webkit-backdrop-filter: blur(50px);
+	backdrop-filter: blur(50px);
+	-webkit-box-shadow: 0 25px 23px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 25px 23px rgba(0, 0, 0, 0.15);
+	border: 1.5px solid rgba(255, 255, 255, 0.06);
+    animation: show 1s ease-in-out forwards;
 }
+  
+  @keyframes show {
+    0% {
+      opacity: 0.5;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes ballsshow {
+    0% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 1;
+    }
+    
+  }
+
 .location-options{
     margin-top: 5vh;
     display: flex;
