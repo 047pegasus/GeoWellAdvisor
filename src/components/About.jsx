@@ -1,6 +1,6 @@
-import img1 from '../assets/about_img3.png';
-import img2 from '../assets/about_img2.webp';
-import img3 from '../assets/about_img3.webp';
+import img1 from '../assets/about.gif';
+import img2 from '../assets/about_img2.jpg';
+import img3 from '../assets/about_img3.jpg';
 
 import icon1 from '../assets/icons/analysis.png';
 import icon2 from '../assets/icons/interface.png';
