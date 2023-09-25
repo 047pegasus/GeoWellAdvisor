@@ -127,4 +127,5 @@ Distributed under the MIT License. See [LICENSE](https://github.com/047pegasus/G
 
 * [Stable Diffusion XL](https://clipdrop.co/stable-diffusion)
 * [Undraw Illustrations](https://undraw.co/illustrations)
+* [GeoWell Android by Aditya Sachan](https://github.com/Sachan-aditya/geowell)
 * [AOS JS](https://github.com/michalsnik/aos)
