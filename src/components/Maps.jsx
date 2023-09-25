@@ -51,23 +51,34 @@ const Maps = () => {
       },
     });
 
-    return markerPosition === null ? null : <Marker position={markerPosition} />;
+    return isMarkerEnabled && markerPosition !== null ? (
+      <Marker position={markerPosition} />
+    ) : null;
+
   };
 
   const handleSubmit = () => {
     var jsonCoordinates = null;
     if(isMarkerEnabled){
-      jsonCoordinates = {"latitude": markerPosition.lat, "longitude": markerPosition.lng};
-      
+      if(markerPosition){
+        jsonCoordinates = {"latitude": markerPosition.lat, "longitude": markerPosition.lng};
+        sessionStorage.setItem('givencoordinates', JSON.stringify(jsonCoordinates));
+        sessionStorage.removeItem('coordinates');
+        sessionStorage.removeItem('gpslocation');
+        navigationRef.current.click();
+      }
+      else{
+        alert("Please select a location on the map or Disable Marker");
+      }
     }
     else{
       jsonCoordinates = {"latitude": givenCoordinates[0], "longitude": givenCoordinates[1]};
+      sessionStorage.setItem('givencoordinates', JSON.stringify(jsonCoordinates));
+      sessionStorage.removeItem('coordinates');
+      sessionStorage.removeItem('gpslocation');
+      navigationRef.current.click();
     }
     console.log(jsonCoordinates);
-    sessionStorage.setItem('givencoordinates', JSON.stringify(jsonCoordinates));
-    sessionStorage.removeItem('coordinates');
-    sessionStorage.removeItem('gpslocation');
-    navigationRef.current.click();
   }
   return (
     <div>
@@ -76,14 +87,14 @@ const Maps = () => {
       <div className="shape-maps-3"></div>
     <div className="maps-body">
       {getLocation()}
-      <div className="maps-container shadow-2xl shadow-cyan-500/50">
+      <div className="maps-container shadow-2xl shadow-cyan-600/50 ">
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white">
           <p className="maps-heading underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">
             Map
           </p>
         </h1>
         <div className="maps-content">
-          <MapContainer className="map" center={coordinates ? coordinates : gpslocation} zoom={coordinates ? 13 : 16} style={{ background: 'transparent' }}>
+          <MapContainer className="map" center={(coordinates ? coordinates : gpslocation) ? (coordinates ? coordinates : gpslocation) : [20.5937, 78.9629]  } zoom={(coordinates ? coordinates : gpslocation) ? (coordinates ? 13 : 16) : 4  } style={{ background: 'transparent' }}>
             <TileLayer
               className="map-tile"
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -94,12 +105,17 @@ const Maps = () => {
         </div>
               {setCoordinates()}
         {/* <h1>Your Given Location</h1> */}
-        <h1 className='info-map text-gray-300 font-semibold font-sans'>*You can Enable Marker to mark a specific location on the map</h1>
+          <h1 className='info-map text-white font-semibold font-sans'>The location you provided in the last section is shown in this map section.</h1>
+        <h1 className='info-map text-gray-500 font-normal font-sans'>*You can Enable Marker to mark a specific location on the map</h1>
         <div className="map-search">
           <button
             id="toggleSelectModeButton"
             className={isMarkerEnabled ? 'bg-blue-700 hover:bg-blue-600 text-white font-bold py-2 px-4 border-b-4 border-blue-900 hover:border-blue-700 rounded' : 'bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded'} 
-            onClick={() => setIsMarkerEnabled(!isMarkerEnabled)}
+            onClick={() => { setIsMarkerEnabled(!isMarkerEnabled); 
+              if(isMarkerEnabled){
+                setMarkerPosition(null);
+              }
+            }}
           >
             {isMarkerEnabled ? 'Disable Marker' : 'Enable Marker'}
           </button>
