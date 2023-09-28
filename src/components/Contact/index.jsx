@@ -21,7 +21,7 @@ function Contact() {
       <div className='contact-body'>
         <h1 className="heading" data-aos="zoom-out">Meet the <span className="span text-transparent bg-clip-text ">Team</span> </h1>
           <div className='contact-container' data-aos="fade-in" data-aos-delay="1000">
-              <Card name="Tanishq Agarwal" title="Front-End Developer" image="https://media.licdn.com/dms/image/D4D03AQErSFQvvNkzmA/profile-displayphoto-shrink_800_800/0/1691864426120?e=1701302400&v=beta&t=lnPeW4M6mbORNwgcYZXLW1ABT9y6oaklbUCmaKhPmxc" />
+              <Card name="Tanishq Agarwal" title="Team Lead | Backend Expert" image="https://media.licdn.com/dms/image/D4D03AQEucKeDXzlvrQ/profile-displayphoto-shrink_200_200/0/1695797456834?e=1701302400&v=beta&t=4Co6U-AFjo3OGgTK1dsaKW7PrVKBQdkM6BPfURYzcyw" />
               <Card name="Ayushi Dwivedi" title="ML Developer" image="https://media.licdn.com/dms/image/D4D03AQHVTV78NLknYg/profile-displayphoto-shrink_800_800/0/1692426271520?e=1701302400&v=beta&t=I7XJI1KBGO4B9MWzvtKTvdWkF4cEI3VXSQDJtKdQcaw"/>
               <Card name="Satyam Gupta" title="Front-End Developer" image="https://i.postimg.cc/cJtN25jq/Whats-App-Image-2023-09-17-at-23-53-53.jpg"/>
           </div>
