@@ -117,6 +117,7 @@ const handleSubmit = (event) => {
 }
 
   const getLocationFromDevice = () => {
+    sessionStorage.removeItem('coordinates');
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (position) => {
@@ -228,5 +229,3 @@ const handleSubmit = (event) => {
 }
 
 export default Project;
-
-
